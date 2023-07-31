@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2e92415-402c-4b7b-b589-6ac884dcd845" name="Changes" comment="" />
+    <list default="true" id="d2e92415-402c-4b7b-b589-6ac884dcd845" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ChatGPTCopilotChannelManager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ChatGPTCopilotChannelManager.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/CheckoutPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/CheckoutPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/LoginPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/LoginPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ChromeSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ChromeSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ReadConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ReadConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/Wait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/BaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/BaseRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/WebRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/WebRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/CheckoutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/CheckoutSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Scene01_LoginFeatures.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Scene01_LoginFeatures.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Scene02_CheckoutFeatures.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Scene02_CheckoutFeatures.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2TKTMM6YpOI5HMEUPttohN6l707" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,10 +56,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
