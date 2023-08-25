@@ -28,7 +28,7 @@ public class ChromeSetup extends Wait {
         Map<String, String> mobileEmulation = new HashMap<>();
         mobileEmulation.put("deviceName", "Galaxy S5");
         options.setExperimentalOption("mobileEmulation", mobileEmulation);
-       // options.addArguments("--headless");
+        options.addArguments("--headless","--remote-allow-origins=*");
         driver = new ChromeDriver(service, options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
