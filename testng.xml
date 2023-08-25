@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Sauce Test Suite">
+    <test name="Sauce Tests">
+        <classes>
+            <class name="Runner.BaseRunner"/>
+            <class name="Runner.WebRunner"/>
+        </classes>
+    </test>
+<!--    test-->
+</suite>
