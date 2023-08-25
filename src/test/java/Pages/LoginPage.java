@@ -13,9 +13,9 @@ import java.io.IOException;
 
 public class LoginPage extends ChromeSetup {
 
-    //public static String Venture = "PK";
+    public static String Venture = "LK";
 
-    public static String Venture = System.getenv("Venture_Jenkins");
+   // public static String Venture = System.getenv("Venture_Jenkins");
 
 
     LoginPageObjects loginPageObjects = new LoginPageObjects(driver);

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2e92415-402c-4b7b-b589-6ac884dcd845" name="Changes" comment="Added headless property">
+    <list default="true" id="d2e92415-402c-4b7b-b589-6ac884dcd845" name="Changes" comment="Added Env Variable for Ventures Selection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,24 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG./Users/salim/Desktop/SalimAutomationProject1/testng.xml">
+    <configuration name="WebRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SalimAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runner" />
+      <option name="MAIN_CLASS_NAME" value="Runner.WebRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/salim/Desktop/SalimAutomationProject1/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SalimAutomationProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -71,6 +90,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/salim/Desktop/SalimAutomationProject1/testng.xml" />
+        <item itemvalue="TestNG.WebRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692982595539</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Env Variable for Ventures Selection">
+      <created>1692984194855</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692984194855</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,7 +144,8 @@
     </ignored-roots>
     <MESSAGE value="Pom update" />
     <MESSAGE value="Added headless property" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added headless property" />
+    <MESSAGE value="Added Env Variable for Ventures Selection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Env Variable for Ventures Selection" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
