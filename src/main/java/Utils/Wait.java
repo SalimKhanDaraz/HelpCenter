@@ -12,6 +12,6 @@ public class Wait {
 
     public static WebDriverWait WaitForWebElement()
     {
-        return new WebDriverWait(driver, Duration.ofSeconds(30));
+        return new WebDriverWait(driver, Duration.ofSeconds(20));
     }
 }

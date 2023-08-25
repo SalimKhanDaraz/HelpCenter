@@ -1,10 +1,13 @@
 package StepDefinitions;
 
 import Pages.LoginPage;
+import Utils.Wait;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import io.qameta.allure.Allure;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import Utils.ChromeSetup;
 import Utils.ReadConfig;
@@ -13,13 +16,14 @@ import java.io.IOException;
 
 public class LoginSteps extends ChromeSetup {
 
+
     LoginPage loginPage = new LoginPage();
 
     ReadConfig readConfig = new ReadConfig();
 
-    @Given("I am on the Saucedemo login page")
-    public void openURL() throws IOException
-    {
+    @Given("I am on the daraz login page")
+    public void openURL() throws IOException {
+
         loginPage.openURL();
     }
 
@@ -36,18 +40,18 @@ public class LoginSteps extends ChromeSetup {
     }
 
     @And("I click the login button")
-    public void Enter_LoginButton()
-    {
+    public void Enter_LoginButton() throws InterruptedException {
+
         loginPage.clickLoginButton();
     }
 
-    //Test
-
-
     @Then("I should be redirected to the homepage")
-    public void GotoHomepage() throws IOException
-    {
-        Assert.assertEquals(loginPage.getHomePageUrl(), readConfig.getHomepageUrl());
+    public void GotoHomepage() throws IOException, InterruptedException {
+        loginPage.NavigateAccountPage();
+        Thread.sleep(2000);
+        driver.get("https://m-helpcenter.daraz.pk/web/home.htm?hybrid=1");
+        Thread.sleep(2000);
+
     }
 
 }

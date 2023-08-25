@@ -5,25 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2e92415-402c-4b7b-b589-6ac884dcd845" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ChatGPTCopilotChannelManager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ChatGPTCopilotChannelManager.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/FeedbackWithNoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/CategorySliderPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/SearchPagePlaceholderSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Scene11_CategorySlider.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/CheckoutPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/CheckoutPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/CheckoutPageObjects.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/LoginPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/LoginPageObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ChromeSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ChromeSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ReadConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ReadConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/Wait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/BaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/BaseRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runner/WebRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/WebRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/CheckoutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/CheckoutSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/CheckoutSteps.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Scene01_LoginFeatures.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Scene01_LoginFeatures.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Scene02_CheckoutFeatures.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Scene02_CheckoutFeatures.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Scene01_LoginFeatures.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Scene01_Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Scene02_CheckoutFeatures.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -60,16 +61,34 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/salim/Desktop/SalimAutomationProject",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="/Users/salim/Desktop/SalimAutomationProject1/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SalimAutomationProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/salim/Desktop/SalimAutomationProject1/testng.xml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,6 +111,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

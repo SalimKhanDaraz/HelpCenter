@@ -19,10 +19,26 @@ public class ReadConfig {
 
     }
 
-    public String getUrl() throws IOException
+    public String getPKUrl() throws IOException
     {
-        return getProperties().getProperty("Url");
+        return getProperties().getProperty("PKUrl");
     }
+
+    public String getLKUrl() throws IOException
+    {
+        return getProperties().getProperty("LKUrl");
+    }
+
+    public String getBDUrl() throws IOException
+    {
+        return getProperties().getProperty("BDUrl");
+    }
+
+    public String getNPUrl() throws IOException
+    {
+        return getProperties().getProperty("NPUrl");
+    }
+
 
     public String getUsername() throws IOException
     {
@@ -38,6 +54,7 @@ public class ReadConfig {
 
     public String getHomepageUrl() throws IOException
     {
+
         return getProperties().getProperty("HomepageUrl");
 
     }

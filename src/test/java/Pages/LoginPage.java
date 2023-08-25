@@ -1,6 +1,7 @@
 package Pages;
 
 import PageObjects.LoginPageObjects;
+import io.qameta.allure.Allure;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import Utils.ChromeSetup;
 import Utils.ReadConfig;
@@ -12,16 +13,47 @@ import java.io.IOException;
 
 public class LoginPage extends ChromeSetup {
 
+    public static String Venture = "PK";
+
+
     LoginPageObjects loginPageObjects = new LoginPageObjects(driver);
 
     ReadConfig readConfig = new ReadConfig();
 
     public void openURL() throws IOException
     {
-        driver.get(readConfig.getUrl());
+
+        switch (Venture) {
+            case "PK":
+
+                ChromeSetup.driver.get(readConfig.getPKUrl());
+
+                break;
+
+            case "LK":
+
+                ChromeSetup.driver.get(readConfig.getLKUrl());
+
+
+                break;
+
+
+            case "BD":
+
+                ChromeSetup.driver.get(readConfig.getBDUrl());
+
+                break;
+
+            case "NP":
+
+                ChromeSetup.driver.get(readConfig.getNPUrl());
+
+                break;
+        }
+
     }
 
-    public void enterUserName() throws IOException, InterruptedException
+    public void enterUserName() throws IOException
     {
 
         Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(loginPageObjects.UserName)).sendKeys(readConfig.getUsername());
@@ -39,12 +71,20 @@ public class LoginPage extends ChromeSetup {
         Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(loginPageObjects.LoginButton)).click();
     }
 
+    public void NavigateAccountPage()
+    {
+        Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(loginPageObjects.AccountPage)).isDisplayed();
+    }
 
+
+/*
     public String getHomePageUrl()
     {
-        //System.out.println(driver.getCurrentUrl());
+
         return driver.getCurrentUrl();
     }
+
+ */
 
 
 }

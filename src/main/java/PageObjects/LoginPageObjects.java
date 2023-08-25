@@ -10,10 +10,11 @@ public class LoginPageObjects extends ChromeSetup {
 
     public LoginPageObjects(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
+        PageFactory.initElements(driver, this);}
 
-    @FindBy(id = "user-name") public WebElement UserName;
-    @FindBy(id = "password") public WebElement Password;
-    @FindBy(id = "login-button") public WebElement LoginButton;
+
+   @FindBy(xpath = "//*[@data-meta=\"Field\" and @type=\"text\"]") public WebElement UserName;
+   @FindBy(xpath = "//*[@data-meta=\"Field\" and @type=\"password\"]") public WebElement Password;
+    @FindBy(xpath = "//*[@data-spm=\"dlogin\" and @class=\"mod-button\"]") public WebElement LoginButton;
+    @FindBy(id = "page-title") public  WebElement AccountPage;
 }
