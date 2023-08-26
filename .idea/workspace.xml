@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2e92415-402c-4b7b-b589-6ac884dcd845" name="Changes" comment="Added Env Variable">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/ContactUsPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/ContactUsPageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/FeedbackPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/FeedbackPageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/SearchPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SearchPageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/TopQuestionsPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/TopQuestionsPageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ChromeSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ChromeSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AnnouncementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/AnnouncementsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CategorySliderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CategorySliderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ContactUsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SearchSuggestionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/SearchSuggestionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SelfServicePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/SelfServicePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/TopQuestionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/TopQuestionsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/AnnouncementsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/AnnouncementsPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/TopQuestionsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/TopQuestionsPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Scene01_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Scene01_Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Scene16_ContactUs.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692988841883</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Env Variable">
+      <created>1693057394671</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693057394671</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
