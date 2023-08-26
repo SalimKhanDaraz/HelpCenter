@@ -12,6 +12,8 @@ import org.testng.asserts.SoftAssert;
 import java.time.Duration;
 import java.util.List;
 
+import static Pages.LoginPage.Venture;
+
 public class SelfServicePage extends ChromeSetup {
 
     SelfServicePageObjects selfserviceobj = new SelfServicePageObjects(driver);
@@ -23,7 +25,37 @@ public class SelfServicePage extends ChromeSetup {
     {
         SoftAssert softAssert = new SoftAssert();
 
-        driver.get("https://m-helpcenter.daraz.pk/web/home.htm?hybrid=1");
+       // driver.get("https://m-helpcenter.daraz.pk/web/home.htm?hybrid=1");
+
+        switch (Venture) {
+            case "PK":
+
+                driver.navigate().to("https://m-helpcenter.daraz.pk/web/home.htm?hybrid=1");
+
+                break;
+
+            case "LK":
+
+                driver.navigate().to("https://m-helpcenter.daraz.lk/web/home.htm?hybrid=1");
+
+
+                break;
+
+
+            case "BD":
+
+                driver.navigate().to("https://m-helpcenter.daraz.com.bd/web/home.htm?hybrid=1");
+
+                break;
+
+            case "NP":
+
+                driver.navigate().to("https://m-helpcenter.daraz.com.np/web/home.htm?hybrid=1");
+
+                break;
+        }
+
+
 
         boolean SS_Section;
 

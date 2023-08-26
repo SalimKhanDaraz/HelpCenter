@@ -9,3 +9,4 @@ Feature: Successful Login to daraz
     And I enter a valid password
     And I click the login button
     Then I should be redirected to the homepage
+    And I should be navigated to the help center

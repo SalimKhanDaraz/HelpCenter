@@ -12,7 +12,7 @@ public class AnnouncementsPageSteps {
     @Given("Announcements are configured & enabled from workstation")
     public void AnnouncementEnabled()
     {
-        //Add for scenario
+        //Added for scenario
     }
 
     @Then("I should see the announcements on homepage")

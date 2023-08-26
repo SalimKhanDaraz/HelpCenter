@@ -9,9 +9,8 @@ public class TopQuestionsPageSteps {
     TopQuestionsPage topQuestionsPage = new TopQuestionsPage();
 
     @When("I click on the available top questions")
-    public void TopQuestions()
-    {
-        //When user clicks on article page
+    public void TopQuestions() throws InterruptedException {
+        topQuestionsPage.TopQuestionsSection();
     }
 
     @Then("I should be navigated to the relevant article page")

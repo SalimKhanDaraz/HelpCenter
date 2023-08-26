@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class LoginPage extends ChromeSetup {
 
-    public static String Venture = "LK";
+    public static String Venture = "PK";
 
    //public static String Venture = System.getenv("Venture_Jenkins");
 
@@ -78,7 +78,6 @@ public class LoginPage extends ChromeSetup {
         Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(loginPageObjects.AccountPage)).isDisplayed();
     }
 
-
 /*
     public String getHomePageUrl()
     {
@@ -87,6 +86,39 @@ public class LoginPage extends ChromeSetup {
     }
 
  */
+
+    public void NavigateHelpCenter() throws IOException
+    {
+
+        switch (Venture) {
+            case "PK":
+
+                ChromeSetup.driver.get("https://m-helpcenter.daraz.pk/web/home.htm?hybrid=1");
+
+                break;
+
+            case "LK":
+
+                ChromeSetup.driver.get("https://m-helpcenter.daraz.lk/web/home.htm?hybrid=1");
+
+
+                break;
+
+
+            case "BD":
+
+                ChromeSetup.driver.get("https://m-helpcenter.daraz.com.bd/web/home.htm?hybrid=1");
+
+                break;
+
+            case "NP":
+
+                ChromeSetup.driver.get("https://m-helpcenter.daraz.com.np/web/home.htm?hybrid=1");
+
+                break;
+        }
+
+    }
 
 
 }

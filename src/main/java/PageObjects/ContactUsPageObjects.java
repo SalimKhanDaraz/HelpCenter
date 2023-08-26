@@ -19,4 +19,7 @@ public class ContactUsPageObjects extends ChromeSetup {
     @FindBy(xpath = "//*[@class=\"sa_vcQOm9lgfJvdVQnOp\"]")
     public WebElement StillNeedHelp_Options;
 
+    @FindBy(xpath = "//*[@class=\"tITMzDBm9656dono8C6j\"]")
+    public WebElement TopQuestion_Section;
+
 }

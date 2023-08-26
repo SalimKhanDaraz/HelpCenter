@@ -17,7 +17,7 @@ public class SearchSuggestionPage extends ChromeSetup {
 
     public void EnterKeywordInSearch()
     {
-        Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(searchPageObjects.SearchBar)).sendKeys("price");
+        Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(searchPageObjects.SearchBar)).sendKeys("daraz");
 
     }
 

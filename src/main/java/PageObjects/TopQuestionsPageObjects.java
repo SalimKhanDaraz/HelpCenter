@@ -24,7 +24,7 @@ public class TopQuestionsPageObjects extends ChromeSetup {
     @FindBy(xpath = "//*[@class=\"aRLClMMX4At4DDn_6QPG\"]")
     public List <WebElement> TopQuestion_AllArticle;
 
-    @FindBy(xpath = "//*[@class=\"zOAodfFFSXYQxHntYUeh\"]")
+    @FindBy(xpath = "//h1[@class=\"zOAodfFFSXYQxHntYUeh\"]")
     public WebElement ArticlePage;
 
 }

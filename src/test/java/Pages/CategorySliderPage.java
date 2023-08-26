@@ -15,6 +15,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
+import static Pages.LoginPage.Venture;
+
+
 public class CategorySliderPage extends ChromeSetup {
 
     CategorySliderPageObjects categorySliderPageObjects = new CategorySliderPageObjects(driver);
@@ -134,8 +137,39 @@ public class CategorySliderPage extends ChromeSetup {
         }
         softAssert.assertAll();
 
-        driver.navigate().to("https://m-helpcenter.daraz.pk/web/home.htm?hybrid=1");
+       // driver.navigate().to("https://m-helpcenter.daraz.pk/web/home.htm?hybrid=1");
+
+
+        switch (Venture) {
+            case "PK":
+
+                driver.navigate().to("https://m-helpcenter.daraz.pk/web/home.htm?hybrid=1");
+
+                break;
+
+            case "LK":
+
+                driver.navigate().to("https://m-helpcenter.daraz.lk/web/home.htm?hybrid=1");
+
+
+                break;
+
+
+            case "BD":
+
+                driver.navigate().to("https://m-helpcenter.daraz.com.bd/web/home.htm?hybrid=1");
+
+                break;
+
+            case "NP":
+
+                driver.navigate().to("https://m-helpcenter.daraz.com.np/web/home.htm?hybrid=1");
+
+                break;
+        }
         Thread.sleep(5000);
     }
 
 }
+
+

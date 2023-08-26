@@ -49,9 +49,15 @@ public class LoginSteps extends ChromeSetup {
     public void GotoHomepage() throws IOException, InterruptedException {
         loginPage.NavigateAccountPage();
         Thread.sleep(2000);
-        driver.get("https://m-helpcenter.daraz.pk/web/home.htm?hybrid=1");
-        Thread.sleep(2000);
+//        driver.get("https://m-helpcenter.daraz.pk/web/home.htm?hybrid=1");
+//        Thread.sleep(2000);
 
+    }
+
+    @And("I should be navigated to the help center")
+    public void GotoHelpCenter() throws IOException, InterruptedException {
+        loginPage.NavigateHelpCenter();
+        Thread.sleep(2000);
     }
 
 }

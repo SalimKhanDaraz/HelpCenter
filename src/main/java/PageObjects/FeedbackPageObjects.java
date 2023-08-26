@@ -12,7 +12,7 @@ public class FeedbackPageObjects extends ChromeSetup {
         this.driver = driver;
         PageFactory.initElements(driver, this);}
 
-    @FindBy(xpath = "//*[@class=\"qA4kooDpxWnZ6uxeCiw9\" and @href=\"#/knowledge/1000034592\"]")
+    @FindBy(xpath = "(//div[@class=\"aRLClMMX4At4DDn_6QPG\"])[3]")
     public WebElement ArticlePage;
 
     @FindBy(xpath = "//*[@class=\"liDMsVvwRI22CepAEJ2Q\"]")

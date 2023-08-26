@@ -3,6 +3,7 @@ package Utils;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.model.ExecutableItem;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
@@ -28,8 +29,10 @@ public class ChromeSetup extends Wait {
         Map<String, String> mobileEmulation = new HashMap<>();
         mobileEmulation.put("deviceName", "Galaxy S5");
         options.setExperimentalOption("mobileEmulation", mobileEmulation);
-        options.addArguments("--headless","--remote-allow-origins=*");
+        //options.addArguments("--headless","--remote-allow-origins=*");
         driver = new ChromeDriver(service, options);
+//        Dimension size = new Dimension(2560, 1600); // Change these values as needed
+  //      driver.manage().window().setSize(size);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
 

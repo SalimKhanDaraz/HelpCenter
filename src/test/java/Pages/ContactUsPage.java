@@ -23,6 +23,8 @@ public class ContactUsPage extends ChromeSetup {
 
             JavascriptExecutor js = (JavascriptExecutor) driver;
 
+            js.executeScript("arguments[0].scrollIntoView();", contactUsPageObjects.TopQuestion_Section);
+            Thread.sleep(3000);
             js.executeScript("arguments[0].scrollIntoView();", contactUsPageObjects.StillNeedHelp_Section);
 
             StillNeedHelp_Availability = contactUsPageObjects.StillNeedHelp_Section.isDisplayed();

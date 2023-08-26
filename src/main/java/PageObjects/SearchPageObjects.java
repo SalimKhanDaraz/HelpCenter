@@ -29,7 +29,7 @@ public class SearchPageObjects extends ChromeSetup {
     @FindBy(xpath="//*[@class=\"CahO15U7jfe0V_OJGYdV\"]")
     public WebElement CloseIcon;
 
-    @FindBy(xpath="//*[text()=\"How can I avail Sticker Price?\"]")
+    @FindBy(xpath="(//a[@class=\"mGwH_2x3KeTXn05ZXFMc\"])[3]")
     public WebElement SearchSuggestion;
 
     @FindBy(xpath="//*[@class=\"zOAodfFFSXYQxHntYUeh\"]")

@@ -4,6 +4,7 @@ import PageObjects.TopQuestionsPageObjects;
 import Utils.ChromeSetup;
 import Utils.Wait;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -16,6 +17,50 @@ import java.util.List;
 public class TopQuestionsPage extends ChromeSetup {
 
     TopQuestionsPageObjects topQuestionsPageObjects = new TopQuestionsPageObjects(driver);
+
+    public void TopQuestionsSection() throws InterruptedException {
+        SoftAssert softAssert = new SoftAssert();
+
+
+        boolean TopQuestionSection;
+        boolean TopQuestionArticles;
+        Thread.sleep(2000);
+
+        try
+        {
+            TopQuestionSection = topQuestionsPageObjects.TopQuestion_Section.isDisplayed();
+            TopQuestionArticles = topQuestionsPageObjects.TopQuestion_Articles.isDisplayed();
+
+        }
+        catch (Exception e)
+        {
+            TopQuestionSection = false;
+            TopQuestionArticles = false;
+        }
+
+
+
+
+        if (TopQuestionSection==true && TopQuestionArticles==true)
+        {
+            System.out.println("************************************************************");
+            System.out.println("Check 2: Top Question Section and its articles are available");
+            System.out.println("Case 18: Passed");
+            System.out.println("***************");
+
+        }
+        else
+        {
+            System.out.println("********************************************************");
+            System.out.println("Check 2: Top Question Section and its articles not found");
+            System.out.println("Case 18: Failed");
+            System.out.println("***************");
+
+            softAssert.assertFalse(true,"Top Question Section and its articles not found");
+
+        }
+        softAssert.assertAll();
+    }
 
     public void ArticlesPage () throws InterruptedException
     {
@@ -39,11 +84,13 @@ public class TopQuestionsPage extends ChromeSetup {
 
                 System.out.println(i + " Clicked on: " + TopQuestionsList.get(i).getText() + "\" article\"");
                 TopQuestionsList.get(i).click();
-              //  wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@class=\"zOAodfFFSXYQxHntYUeh\"]")));
-                Wait.WaitForWebElement().until(ExpectedConditions.visibilityOfAllElements(topQuestionsPageObjects.ArticlePage));
+              //
+                Thread.sleep(5000);
+              // wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@class=\"zOAodfFFSXYQxHntYUeh\"]")));
+               // Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(topQuestionsPageObjects.ArticlePage)).isDisplayed();
 
 
-                Thread.sleep(2000);
+              //  Thread.sleep(2000);
 
                 driver.navigate().back();
 
@@ -67,8 +114,10 @@ public class TopQuestionsPage extends ChromeSetup {
             e.printStackTrace();
         }
 
-
-        boolean TopQuestionSection, TopQuestionArticles;
+        Thread.sleep(2000);
+/*
+        boolean TopQuestionSection;
+        boolean TopQuestionArticles;
         Thread.sleep(2000);
 
         try
@@ -83,7 +132,10 @@ public class TopQuestionsPage extends ChromeSetup {
             TopQuestionArticles = false;
         }
 
-        if (TopQuestionSection && TopQuestionArticles)
+
+        
+
+        if (TopQuestionSection==true && TopQuestionArticles==true)
         {
             System.out.println("************************************************************");
             System.out.println("Check 2: Top Question Section and its articles are available");
@@ -101,6 +153,8 @@ public class TopQuestionsPage extends ChromeSetup {
             softAssert.assertFalse(true,"Top Question Section and its articles not found");
 
         }
+
+ */
 
         softAssert.assertAll();
 
