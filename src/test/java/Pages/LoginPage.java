@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class LoginPage extends ChromeSetup {
 
-    //public static String Venture = "PK";
+    //public static String Venture = "NP";
 
    public static String Venture = System.getenv("Venture_Jenkins");
 
@@ -73,9 +73,10 @@ public class LoginPage extends ChromeSetup {
         Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(loginPageObjects.LoginButton)).click();
     }
 
-    public void NavigateAccountPage()
-    {
-        Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(loginPageObjects.AccountPage)).isDisplayed();
+    public void NavigateAccountPage() throws IOException {
+
+       Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(loginPageObjects.AccountPage)).isDisplayed();
+
     }
 
 /*

@@ -116,7 +116,8 @@ public class SelfServicePage extends ChromeSetup {
                 //SelfService_Tools.get(i).click();
 
                 Thread.sleep(1500);
-                Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(selfserviceobj.Back_to_HC)).click();
+                driver.navigate().back();
+                //Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(selfserviceobj.Back_to_HC)).click();
 
 
                 Wait.WaitForWebElement().until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@class=\"OUvoLIP67H31NKGPoSxx\"]")));
