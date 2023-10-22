@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2e92415-402c-4b7b-b589-6ac884dcd845" name="Changes" comment="Added headless property">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/GreetingsPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/GreetingsPageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ChromeSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ChromeSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SelfServicePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/SelfServicePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/BaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/BaseRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="d2e92415-402c-4b7b-b589-6ac884dcd845" name="Changes" comment="Added headless property" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693058148220</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added headless property">
+      <created>1697967409631</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697967409631</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
