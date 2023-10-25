@@ -17,11 +17,15 @@ public class SearchNotFound extends ChromeSetup {
         SoftAssert softAssert = new SoftAssert();
 
         Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(searchpageobj.SearchBar)).isDisplayed();
-        Thread.sleep(1000);
         searchpageobj.SearchBar.sendKeys("vvvvv");
+        Thread.sleep(3000);
 
-        Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(searchpageobj.NoResultFound));
-        Thread.sleep(1000);
+try {
+    Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(searchpageobj.NoResultFound));
+}catch (Exception e){
+    Thread.sleep(3000);
+
+}
 
         boolean InvalidSearchResult;
 

@@ -31,7 +31,9 @@ public class ChromeSetup extends Wait {
         mobileEmulation.put("deviceName", "Galaxy S5");
         options.setExperimentalOption("mobileEmulation", mobileEmulation);
         options.addArguments("--headless");
+      //  options.addArguments("--disable-gpu");
         options.addArguments("--remote-allow-origins=*");
+        options.setPageLoadStrategy(PageLoadStrategy.EAGER);
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
         driver = new ChromeDriver(service, options);
 //        Dimension size = new Dimension(2560, 1600);

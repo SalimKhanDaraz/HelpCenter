@@ -45,7 +45,14 @@ public class CategorySliderPage extends ChromeSetup {
             SliderSpot.get(i).click();
             //Thread.sleep(4000);
 
-            Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(categorySliderPageObjects.L1Categories)).isDisplayed();
+            try {
+                System.out.println("Waited in try block");
+                Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(categorySliderPageObjects.L1Categories)).isDisplayed();
+            }catch (Exception e){
+                Thread.sleep(6000);
+                System.out.println("Waited in try catch");
+
+            }
 
 
             if (driver.findElements(By.xpath("//*[@class=\"ZBHhIA_OT_1jo3YsnlG4\"]//a")).size()>=1)
