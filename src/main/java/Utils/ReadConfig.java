@@ -39,6 +39,11 @@ public class ReadConfig {
         return getProperties().getProperty("NPUrl");
     }
 
+    public String getMMUrl() throws IOException
+    {
+        return getProperties().getProperty("MMUrl");
+    }
+
 
     public String getUsername() throws IOException
     {

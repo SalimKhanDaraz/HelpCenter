@@ -13,9 +13,9 @@ import java.io.IOException;
 
 public class LoginPage extends ChromeSetup {
 
-    //public static String Venture = "PK";
+    //public static String Venture = "BD";
 
-   public static String Venture = System.getenv("Venture_Jenkins");
+    public static String Venture = System.getenv("Venture_Jenkins");
 
 
     LoginPageObjects loginPageObjects = new LoginPageObjects(driver);
@@ -51,6 +51,7 @@ public class LoginPage extends ChromeSetup {
                 ChromeSetup.driver.get(readConfig.getNPUrl());
 
                 break;
+
         }
 
     }
@@ -117,6 +118,7 @@ public class LoginPage extends ChromeSetup {
                 ChromeSetup.driver.get("https://m-helpcenter.daraz.com.np/web/home.htm?hybrid=1");
 
                 break;
+
         }
 
     }

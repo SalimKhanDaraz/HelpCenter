@@ -144,8 +144,6 @@ public class CategorySliderPage extends ChromeSetup {
         }
         softAssert.assertAll();
 
-       // driver.navigate().to("https://m-helpcenter.daraz.pk/web/home.htm?hybrid=1");
-
 
         switch (Venture) {
             case "PK":

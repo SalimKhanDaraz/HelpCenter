@@ -11,15 +11,17 @@ import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
 
+import static Pages.LoginPage.Venture;
+
 public class SearchSuggestionPage extends ChromeSetup {
 
     SearchPageObjects searchPageObjects = new SearchPageObjects(driver);
 
-    public void EnterKeywordInSearch()
-    {
-        Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(searchPageObjects.SearchBar)).sendKeys("daraz");
+    public void EnterKeywordInSearch() {
 
-    }
+                Wait.WaitForWebElement().until(ExpectedConditions.visibilityOf(searchPageObjects.SearchBar)).sendKeys("daraz");
+
+        }
 
 
     public void SearchSuggestion()
