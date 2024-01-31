@@ -4,16 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-
-
     <groupId>org.example</groupId>
     <artifactId>SalimAutomationProject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <cucumber.version>4.2.0</cucumber.version>
         <aspectj.version>1.9.1</aspectj.version>
         <suiteXmlFile>testng.xml</suiteXmlFile>
@@ -21,7 +20,6 @@
         <allure.report.dir>${project.build.directory}${file.separator}allure-report</allure.report.dir>
         <allure.results.directory>${allure.result.dir}</allure.results.directory>
         <timestamp>${maven.build.timestamp}</timestamp>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
