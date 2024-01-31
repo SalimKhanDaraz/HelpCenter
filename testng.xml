@@ -4,8 +4,6 @@
         <classes>
             <class name="Runner.BaseRunner"/>
 <!--            test-->
-            <!--            test-->
-
             <class name="Runner.WebRunner"/>
         </classes>
     </test>
